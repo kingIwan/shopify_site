@@ -1,1 +1,64 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":28,"padding_bottom":28}},"custom_liquid_JGEAQP":{"type":"custom-liquid","settings":{"custom_liquid":"{{page.title}}\n{%if page.title == 'Contact'%}\nthis page is Context\n{%endif%}","color_scheme":"","padding_top":40,"padding_bottom":52}},"custom_liquid_hXztDf":{"type":"custom-liquid","settings":{"custom_liquid":"<div class=\"start\"><b>{{'hello world' | capitalize}}<\/b><\/div>\n<div>\n<button onclick=\"myFunction()\">Click me<\/button>\n<\/div>\n\n\n<style>\n.start{\nfont-size:48px;\n}\n\nbutton{\nbackground-color:red;\n}\n<\/style>","color_scheme":"","padding_top":40,"padding_bottom":52}},"custom_liquid_px44Qc":{"type":"custom-liquid","settings":{"custom_liquid":"{%unless page.title == \"Not contect\"%}\n\nThis is bad\n\n{%endunless%}","color_scheme":"","padding_top":40,"padding_bottom":52}},"custom_liquid_g7E8WD":{"type":"custom-liquid","settings":{"custom_liquid":"{%if page.title==\"NContact\"%}\nThis is contact page.\n{%elsif page.title==\"Contact\"%}\nHi this is contact...\n{%else%}\nThis is not contatct page\n{%endif%}","color_scheme":"","padding_top":40,"padding_bottom":52}},"custom_liquid_6iXrWE":{"type":"custom-liquid","settings":{"custom_liquid":"","color_scheme":"","padding_top":40,"padding_bottom":52}}},"order":["main","custom_liquid_JGEAQP","custom_liquid_hXztDf","custom_liquid_px44Qc","custom_liquid_g7E8WD","custom_liquid_6iXrWE"]}
+{
+    "sections": {
+        "main": {
+            "type": "main-page",
+            "settings": {
+                "padding_top": 28,
+                "padding_bottom": 28
+            }
+        },
+        "custom_liquid_JGEAQP": {
+            "type": "custom-liquid",
+            "settings": {
+                "custom_liquid": "{{page.title}}\n{%if page.title == 'Contact'%}\nthis page is Context\n{%endif%}",
+                "color_scheme": "",
+                "padding_top": 40,
+                "padding_bottom": 52
+            }
+        },
+        "custom_liquid_hXztDf": {
+            "type": "custom-liquid",
+            "settings": {
+                "custom_liquid": "<div class=\"start\"><b>{{'hello world' | capitalize}}<\/b><\/div>\n<div>\n<button onclick=\"myFunction()\">Click me<\/button>\n<\/div>\n\n\n<style>\n.start{\nfont-size:48px;\n}\n\nbutton{\nbackground-color:red;\n}\n<\/style>",
+                "color_scheme": "",
+                "padding_top": 40,
+                "padding_bottom": 52
+            }
+        },
+        "custom_liquid_px44Qc": {
+            "type": "custom-liquid",
+            "settings": {
+                "custom_liquid": "{%unless page.title == \"Not contect\"%}\n\nThis is bad\n\n{%endunless%}",
+                "color_scheme": "",
+                "padding_top": 40,
+                "padding_bottom": 52
+            }
+        },
+        "custom_liquid_g7E8WD": {
+            "type": "custom-liquid",
+            "settings": {
+                "custom_liquid": "{%if page.title==\"NContact\"%}\nThis is contact page.\n{%elsif page.title==\"Contact\"%}\nHi this is contact...\n{%else%}\nThis is not contatct page\n{%endif%}",
+                "color_scheme": "",
+                "padding_top": 40,
+                "padding_bottom": 52
+            }
+        },
+        "custom_liquid_6iXrWE": {
+            "type": "custom-liquid",
+            "settings": {
+                "custom_liquid": "",
+                "color_scheme": "",
+                "padding_top": 40,
+                "padding_bottom": 52
+            }
+        }
+    },
+    "order": [
+        "main",
+        "custom_liquid_JGEAQP",
+        "custom_liquid_hXztDf",
+        "custom_liquid_px44Qc",
+        "custom_liquid_g7E8WD",
+        "custom_liquid_6iXrWE"
+    ]
+}
