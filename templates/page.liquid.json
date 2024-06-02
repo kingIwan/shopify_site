@@ -55,7 +55,7 @@
     "liquid_ref_EXkdRb": {
       "type": "Liquid-Ref",
       "settings": {
-        "liquid-red": "My name is kAvinda"
+        "liquid-red": "<h1>My name is kAvinda<\/h1>"
       }
     },
     "liquid_ref_rmLtXX": {
