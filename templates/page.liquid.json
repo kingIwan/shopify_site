@@ -56,7 +56,8 @@
       "type": "Liquid-Ref",
       "settings": {
         "liquid-red": "<h1>My name is kAvinda<\/h1>",
-        "liquid-checkbox": true
+        "liquid-checkbox": true,
+        "liquid-number": 20
       }
     },
     "liquid_ref_rmLtXX": {
