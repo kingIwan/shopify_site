@@ -55,13 +55,15 @@
     "liquid_ref_EXkdRb": {
       "type": "Liquid-Ref",
       "settings": {
-        "liquid-red": "<h1>My name is kAvinda<\/h1>"
+        "liquid-red": "<h1>My name is kAvinda<\/h1>",
+        "liquid-checkbox": true
       }
     },
     "liquid_ref_rmLtXX": {
       "type": "Liquid-Ref",
       "settings": {
-        "liquid-red": ""
+        "liquid-red": "",
+        "liquid-checkbox": false
       }
     }
   },
