@@ -16,6 +16,14 @@
     {{ section.settings.liquid-number }}
 {% endif %}
 
+
+<h1>Radio</h1>
+{{ section.settings.liquid-radio }}
+
+
+
+
+
 {% schema %}
 {
 "name": "Liquid Reference",
@@ -42,10 +50,11 @@
         "id":"liquid-radio",
         "type": "radio",
         "label": "Add a radio button",
-        "options":[
+        "options":
+        [
             {
-            "value": "option-1",
-            "label": "Option 01"
+                "value": "option-1",
+                "label": "Option 01"
             },
             {
                 "value": "option-2",
@@ -53,7 +62,7 @@
             }
         ]
         
-        }
+    }
 
 ],
 
